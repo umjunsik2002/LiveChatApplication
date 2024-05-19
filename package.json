@@ -1,0 +1,16 @@
+{
+  "name": "livechatapplication",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon backend/src/server.js",
+    "dev": "cd frontend && vite --port 3000",
+    "build": "cd frontend && vite build"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "vite": "^5.2.11"
+  }
+}
